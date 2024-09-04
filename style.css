@@ -1,0 +1,81 @@
+body {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 1050px;
+  margin: auto;
+}
+#header h1 {
+  font-size: 4em;
+  letter-spacing: 0.2em;
+  padding-top: 0.4em;
+  padding-bottom: 0.2em;
+}
+#header h3 {
+  font-size: 2em;
+}
+.main #left-section .contact h3 {
+  font-size: 2em;
+  padding-bottom: 0.2em;
+}
+.main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-top: 3em;
+}
+#header {
+  text-align: center;
+  margin: auto 2em;
+}
+#header hr {
+  background-color: light-gray;
+  height: 1px;
+}
+#left-section .contact span {
+  margin: auto 1em 4em 2em;
+}
+
+#left-section .contact span i {
+  margin: 0.5em;
+}
+#left-section .contact span a {
+  font-size: 22px;
+}
+#left-section .skills h3 {
+  font-size: 2em;
+  padding-bottom: 0.1em;
+}
+.skills ul > li {
+  font-size: 1.5em;
+}
+#left-section .edu h3 {
+  font-size: 2em;
+}
+.edu ul > li {
+  font-size: 1.3em;
+}
+#left-section .edu {
+  padding-bottom: 20em;
+}
+#right-section .about h3 {
+  font-size: 2em;
+  padding-bottom: 0.2em;
+}
+#right-section .about p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+#right-section .work h3 {
+  font-size: 2em;
+  padding-bottom: 0.2em;
+}
+#right-section .work p {
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+#left-section {
+  border-right: 1px solid lightgray;
+  margin-right: 2em;
+}
